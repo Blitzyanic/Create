@@ -2,6 +2,7 @@ import os
 import sys
 import webbrowser
 
+
 # templates
 use_lang = ['.py', '.go', '.sh', '.nggyu', '.java', '.c', '.cc', '.cpp', '.cp', '.txt', '.html', '.js', '.css', '.web']
 name = 'default'

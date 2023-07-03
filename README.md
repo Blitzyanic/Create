@@ -6,20 +6,20 @@
 -  python-virtualenv
 
 ## _supported languages_
-- shell
+- shell (file only)
 
-- Python
+- Python (project folder)
 
-- Java
+- Java (file only)
 
-- C/C++
+- C/C++ (file only)
 
-- Web(Javascript,css,Html)
+- Web(Javascript,css,Html) (project folder)
 
-- Go
+- Go (project folder)
 
 ## _Use_
-clone the Git repo and copy in $HOME
+clone the Git repo
 ```shell
 cd
 git clone https://github.com/Blitzyanic/Create.git
@@ -27,14 +27,17 @@ git clone https://github.com/Blitzyanic/Create.git
 
 add to your shell config file
 ```shell
-alias create='python ~/Create/__pycache__/create.cpython-311.pyc'
+alias create='python path/to/Create/__pycache__/create.cpython-311.pyc'
 ```
 
-now you can write 
+now you can write
 
 ```shell
 create name.lang
 ```
 ## About
 - License:GNU General Public License v3.0
-- Bug Report: https://github.com/Blitzyanic/Create/issues  
+- Bug Report: https://github.com/Blitzyanic/Create/issues
+
+## TODO
+- Gradle support
